@@ -1,0 +1,95 @@
+{
+    "version": 1,
+    "name": "Player",
+    "maps": [
+        {
+            "name": "Control",
+            "id": "037efa06-df87-4c92-897d-a2db74100afe",
+            "actions": [
+                {
+                    "name": "LeftD",
+                    "type": "Button",
+                    "id": "861323c4-d05b-47a0-b7ff-e83874b146da",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LeftF",
+                    "type": "Button",
+                    "id": "d018bccc-9045-456e-a029-5d44496a5f9e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RightJ",
+                    "type": "Button",
+                    "id": "a4ae9377-4065-41cb-aa09-87d5e1e7e164",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RightK",
+                    "type": "Button",
+                    "id": "e16a359e-9bc4-4ea9-972a-aa30c9f8ef52",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c6563692-b62d-4460-a71e-d6c6e491a9c4",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftD",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ecab7c8f-f81c-4cff-96ef-f03a0de21e7d",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftF",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "017343ac-8327-4dd6-945e-4871e5a5bb36",
+                    "path": "<Keyboard>/j",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightJ",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b1fbec03-9058-4b20-ada6-f111b0f40017",
+                    "path": "<Keyboard>/k",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightK",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
