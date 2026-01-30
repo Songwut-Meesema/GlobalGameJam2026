@@ -5,9 +5,10 @@ using System;
 public class CharacterStats : ScriptableObject
 {
     public float maxHp = 100f;
+    
+    [System.NonSerialized] 
     public float currentHp;
 
-    // Event triggered when HP changes: parameters are current HP and max HP
     public Action<float, float> OnHpChanged; 
 
     public void Initialize() {
