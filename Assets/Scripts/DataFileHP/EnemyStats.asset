@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bb81dd098f05bba408d187a15a69397b, type: 3}
-  m_Name: PlayerStats
+  m_Name: EnemyStats
   m_EditorClassIdentifier: 
   maxHp: 100
   currentHp: 0

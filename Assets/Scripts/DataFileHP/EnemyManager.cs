@@ -2,39 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyManager : MonoBehaviour {
-    public static EnemyManager Instance;
-    public Transform spawnPoint;
-    public StatsData activeEnemyHp; 
+public class EnemyManager : MonoBehaviour
+{
+    public List<EnemyTemplate> enemyList;
+    private int currentIndex = 0;
     
-    public List<EnemyTemplate> levelEnemies; 
-    private int currentEnemyIndex = 0;
-    private GameObject currentEnemyInstance;
-
-    private void Awake() => Instance = this;
+    public Transform enemySpawnPoint;
+    public CharacterStats enemyStatsAsset;
+    public GameObject winUI;
 
     void Start() {
         SpawnNextEnemy();
     }
 
     public void SpawnNextEnemy() {
-        if (currentEnemyIndex >= levelEnemies.Count) {
-            Debug.Log("จบด่าน! ชนะแล้ว");
-            return;
-        }
+        if (currentIndex >= enemyList.Count) return;
 
-        if (currentEnemyInstance != null) Destroy(currentEnemyInstance);
-
-        EnemyTemplate template = levelEnemies[currentEnemyIndex];
+        winUI.SetActive(false);
         
-        activeEnemyHp.maxHp = template.maxHp;
-        activeEnemyHp.ResetHp();
+        // ลบตัวเก่า
+        foreach (Transform child in enemySpawnPoint) Destroy(child.gameObject);
 
-        currentEnemyInstance = Instantiate(template.visualPrefab, spawnPoint.position, spawnPoint.rotation);
-        
-        var visuals = currentEnemyInstance.GetComponent<CharacterVisuals>();
-        if (visuals != null) visuals.isPlayer = false;
+        // ตั้งค่าตัวใหม่
+        EnemyTemplate et = enemyList[currentIndex];
+        enemyStatsAsset.maxHp = et.maxHp;
+        enemyStatsAsset.Initialize();
 
-        currentEnemyIndex++;
+        GameObject enemyObj = Instantiate(et.visualPrefab, enemySpawnPoint);
+        // ใส่สคริปต์ Animator ให้ศัตรูตัวที่เสกออกมา
+        enemyObj.AddComponent<CharacterAnimator>().isPlayer = false;
+
+        currentIndex++;
     }
 }
