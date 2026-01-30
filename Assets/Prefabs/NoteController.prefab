@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 2726703810426633759}
   - component: {fileID: 6083562549929739741}
   - component: {fileID: 2968060932789728910}
-  - component: {fileID: 6866387811026303244}
   - component: {fileID: 3525847278120024611}
+  - component: {fileID: 6866387811026303244}
   m_Layer: 0
   m_Name: NoteController
   m_TagString: Untagged
@@ -107,18 +107,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6866387811026303244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8782843643777321142}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0747ea0dae021954f99d9e78e417ced4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &3525847278120024611
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -146,3 +134,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6866387811026303244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8782843643777321142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0747ea0dae021954f99d9e78e417ced4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

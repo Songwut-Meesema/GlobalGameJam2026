@@ -1,51 +1,32 @@
 using UnityEngine;
 
-public class NoteController : MonoBehaviour
-{
-    private NoteInfo noteData;
-    private float spawnBeat;
-    private float targetBeat;
-    
-    // Config values (Can be moved to a ScriptableObject later for better architecture)
+public class NoteController : MonoBehaviour {
+    private float targetTime;
     private Vector3 spawnPos;
-    private Vector3 removePos;
     private Vector3 hitPos;
-    
-    private float beatsShownBeforeHit = 2.0f; // How many beats it takes to reach the hit zone
+    private float travelDuration;
 
-    public void Initialize(NoteInfo info, Vector3 startPos, Vector3 endPos, float beatsBefore)
-    {
-        noteData = info;
-        targetBeat = info.beat;
-        spawnPos = startPos;
-        hitPos = endPos;
-        beatsShownBeforeHit = beatsBefore;
-        
-        // Calculate where it should disappear (optional: for past the hit zone)
-        removePos = hitPos + (hitPos - spawnPos); 
+    // รับ Struct NoteInfo เข้ามาทั้งหมด (แก้ Error CS1503)
+    public void Initialize(NoteInfo info, Vector3 start, Vector3 end, float duration) {
+        targetTime = info.timeInSeconds;
+        spawnPos = start;
+        hitPos = end;
+        travelDuration = duration;
     }
 
-    void Update()
-    {
+    void Update() {
         if (Conductor.Instance == null) return;
 
-        float currentBeat = Conductor.Instance.songPositionInBeats;
-        
-        // Calculate T (0 to 1) based on current beat relative to target beat
-        // T = 0 at (targetBeat - beatsShownBeforeHit)
-        // T = 1 at targetBeat
-        float t = 1f - ((targetBeat - currentBeat) / beatsShownBeforeHit);
+        float currentTime = Conductor.Instance.songPositionSeconds;
+        float t = 1f - ((targetTime - currentTime) / travelDuration);
 
-        if (t >= 0)
-        {
-            // Move from spawn to hit position
+        if (t >= 0) {
             transform.position = Vector3.Lerp(spawnPos, hitPos, t);
         }
 
-        // Logic to remove note if it's too far past
-        if (t > 1.2f) 
-        {
-            RhythmEvents.TriggerNoteMiss(); // Observer Pattern: Notify that we missed
+        // Auto Miss
+        if (t > 1.15f) {
+            RhythmEvents.TriggerNoteMiss();
             Destroy(gameObject);
         }
     }

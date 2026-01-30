@@ -1,17 +1,16 @@
-using System.Collections;
-using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine;
 
 [System.Serializable]
 public struct NoteInfo {
-    public float beat;      // Beat number (e.g., 1.5, 2.0)
-    public int laneIndex;   // 0: Left, 1: Up, 2: Down, 3: Right
+    public float timeInSeconds; 
+    public int laneIndex;       
 }
 
-[CreateAssetMenu(fileName = "NewSong", menuName = "RhythmGame/SongData")]
+[CreateAssetMenu(fileName = "SoData", menuName = "RhythmGame/SongData")]
 public class SongData : ScriptableObject {
     public AudioClip musicClip;
     public float bpm;
-    public float firstBeatOffset; // Offset in seconds before music starts
-    public List<NoteInfo> notes;
+    public float firstBeatOffset;
+    public List<NoteInfo> notes = new List<NoteInfo>(); // ข้อมูลจะมาลงที่นี่
 }
