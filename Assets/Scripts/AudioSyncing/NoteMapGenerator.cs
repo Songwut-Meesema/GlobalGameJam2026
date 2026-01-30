@@ -4,8 +4,8 @@ using UnityEngine;
 public class NoteMapGenerator : MonoBehaviour
 {
     [Header("Target Data")]
-    public SongData targetSoData; // ลาก SoData ที่ต้องการจะเขียนทับใส่ตรงนี้
-    public TextAsset midiJsonFile; // ลากไฟล์ JSON ใส่ตรงนี้
+    public SongData targetSoData; 
+    public TextAsset midiJsonFile; 
 
     [ContextMenu("Generate Pattern Now")] // คำสั่งนี้จะโผล่มาให้กด!
     public void GeneratePattern()
@@ -16,10 +16,10 @@ public class NoteMapGenerator : MonoBehaviour
             return;
         }
 
-        // อ่าน JSON
+        //JSON READER
         MidiJsonData data = JsonUtility.FromJson<MidiJsonData>(midiJsonFile.text);
         
-        // เขียนทับข้อมูลใน SO
+        //overwrite SO Data
         targetSoData.bpm = data.header.bpm;
         targetSoData.notes.Clear();
 
@@ -28,7 +28,7 @@ public class NoteMapGenerator : MonoBehaviour
                 NoteInfo newNote = new NoteInfo();
                 newNote.timeInSeconds = n.time;
                 
-                // Map MIDI Note เป็น Lane
+                // Map MIDI Note to Lane
                 if (n.midi == 31) newNote.laneIndex = 0;
                 else if (n.midi == 43) newNote.laneIndex = 1;
                 else if (n.midi == 50) newNote.laneIndex = 2;
@@ -41,7 +41,7 @@ public class NoteMapGenerator : MonoBehaviour
 
         targetSoData.notes.Sort((a, b) => a.timeInSeconds.CompareTo(b.timeInSeconds));
         
-        // สั่งให้ Unity บันทึกความเปลี่ยนแปลงลงในไฟล์ Asset จริงๆ
+        // Save changes to SO asset 
 #if UNITY_EDITOR
         UnityEditor.EditorUtility.SetDirty(targetSoData);
         UnityEditor.AssetDatabase.SaveAssets();
@@ -51,7 +51,7 @@ public class NoteMapGenerator : MonoBehaviour
     }
 }
 
-// ใส่ไว้ข้างนอก Class เพื่อให้เรียกใช้ได้
+// pust outside classes for JSON parsing
 [System.Serializable] public class MidiJsonData { public MidiHeader header; public List<MidiTrack> tracks; }
 [System.Serializable] public class MidiHeader { public float bpm; }
 [System.Serializable] public class MidiTrack { public List<MidiNote> notes; }

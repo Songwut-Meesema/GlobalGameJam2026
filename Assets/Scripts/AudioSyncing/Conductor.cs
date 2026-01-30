@@ -19,7 +19,7 @@ public class Conductor : MonoBehaviour {
 
     void Update() {
         if (musicSource.isPlaying) {
-            // หัวใจของการ Sync: เวลาปัจจุบัน = (เวลาจริง - เวลาเริ่ม) - ค่าชดเชย
+            // เวลาปัจจุบัน = (เวลาจริง - เวลาเริ่ม) - ค่าชดเชย
             songPositionSeconds = (float)(AudioSettings.dspTime - dspSongTime) - songData.firstBeatOffset;
         }
     }
