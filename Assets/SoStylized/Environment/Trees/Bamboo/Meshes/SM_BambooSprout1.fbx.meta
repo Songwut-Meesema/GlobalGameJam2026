@@ -1,19 +1,9 @@
 fileFormatVersion: 2
-guid: bbf87bd0ec490454eb2477461fa3ebe5
+guid: f397dfdc5a65f7e409429af1533435ab
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_BambooBarkMisc
-    second: {fileID: 2100000, guid: bff5d08c7bded0845a82f98410a9ea4b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_BambooBarkMisc.001
-    second: {fileID: 2100000, guid: bff5d08c7bded0845a82f98410a9ea4b, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

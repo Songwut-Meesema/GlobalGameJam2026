@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 6bdcb675cd95b5d46bf2f7769e38ebc9
+guid: b1a73588a20a3ed44b0561c54ff20b17
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_BushChina.002
-    second: {fileID: 2100000, guid: 721ee240212a26a49b1b603e10732c8b, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

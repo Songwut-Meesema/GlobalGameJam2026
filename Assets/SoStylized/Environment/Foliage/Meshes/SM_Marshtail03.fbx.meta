@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 6e5419272ecabcc49844c1c715958f62
+guid: 847c452f1838f8740bed2fefabe47c14
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_Marshtails.003
-    second: {fileID: 2100000, guid: 62bc00a705844e3479a7ac9c2ff0061e, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -1,34 +1,9 @@
 fileFormatVersion: 2
-guid: 68b1b1e76ba2f3048b840d92b9e2bd61
+guid: 87a2f565a4d0e194b8e940805b8f7abd
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_PineBark_Snow.001
-    second: {fileID: 2100000, guid: 0358f1c26be50f744961603796686cf6, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_PineBark_Snow_LOD.001
-    second: {fileID: 2100000, guid: 10c496bd1ff1a5e45bc3faf5d8b7456f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_PineLeafyLeaves.001
-    second: {fileID: 2100000, guid: 1c665a6c34cc1d44687eabae2988c30f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_PineLeafyLeaves_LOD.001
-    second: {fileID: 2100000, guid: f48c9c0d175a48f4cbcdec6e024ec6ba, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_PineTreeLeafySnow_SingleMat
-    second: {fileID: 2100000, guid: 2f4a0c441e9db5440bf711c63d603630, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

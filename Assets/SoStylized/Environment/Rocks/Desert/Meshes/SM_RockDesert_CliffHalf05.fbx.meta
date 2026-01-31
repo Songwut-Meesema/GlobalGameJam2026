@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: b04d66c5aa6619442867809ca4e7d053
+guid: 924f084377b4de2409738671b9b5f295
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_RockDesert_Cliff
-    second: {fileID: 2100000, guid: c76271c7056cdf6469ecb2c6b1ed2169, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 91bd1aa5f6810a5478e6e9303b9b91c8
+guid: e42a840af8ef658419d1f29aa379dbea
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_Daffodils.002
-    second: {fileID: 2100000, guid: d332903661c1975438084e0c341d73d8, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

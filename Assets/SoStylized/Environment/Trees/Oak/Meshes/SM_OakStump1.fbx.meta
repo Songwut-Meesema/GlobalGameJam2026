@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 3151a6acef2251e4083a0fdfeec5cbf0
+guid: 1127bdc7d5b633d42985e5c8162a5980
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_OakBarkMisc.003
-    second: {fileID: 2100000, guid: ec39f879edfcb2446aba85dbc0477f28, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

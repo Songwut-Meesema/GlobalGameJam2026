@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 39a5efba70d4c9048ab8188bf6fff969
+guid: 9128a2662ebc15e4389578b15f81cd5b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_BushDesert
-    second: {fileID: 2100000, guid: f6b21185205af94489fefbf40d9ac339, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -1,34 +1,9 @@
 fileFormatVersion: 2
-guid: aa74ae9ab697cf149a91db4b2b839d58
+guid: be767d1bc570a264e9ace87ea2aeaf3e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_ChinaPineBark.004
-    second: {fileID: 2100000, guid: dbf9d0ae1ba54d446a80947513331e70, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_ChinaPineBark_LOD1.003
-    second: {fileID: 2100000, guid: b66796e1b16c7d34394d8296d6f7bc41, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_ChinaPineLeaves.003
-    second: {fileID: 2100000, guid: 65624b604ce163d44b4af25d83568dc1, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_ChinaPineLeaves_LOD1.003
-    second: {fileID: 2100000, guid: 85e7d2c7f9760004ea3555790f234619, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_ChinaPineTree_SingleMat.003
-    second: {fileID: 2100000, guid: 8c7460dd31a72664e8d91eb73a471088, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 7f20bbe9be3b11d4c83dadceab326348
+guid: cb5328e9b7df255499d0b07ad915f797
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_FirBarkMisc.005
-    second: {fileID: 2100000, guid: f89d3c15a52d32644aad338387c66944, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

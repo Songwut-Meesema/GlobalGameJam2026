@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 1cd92f759f4fb1541949073b5c8d4a7f
+guid: 000d0c7fc9ce82a44a5c07a9fb637df5
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_Cactus.004
-    second: {fileID: 2100000, guid: 0bfbd5ab9c3ca4f468d2566cff99fb00, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

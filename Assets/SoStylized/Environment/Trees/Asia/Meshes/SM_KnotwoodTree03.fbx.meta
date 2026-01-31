@@ -1,34 +1,9 @@
 fileFormatVersion: 2
-guid: 5714ec0e4573fe04b82091e8653ec24e
+guid: 1b6adafbdf7420a48b2c40e457e2a84e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_KnotwoodBark.004
-    second: {fileID: 2100000, guid: fd27d8b4f5267dd4ab27d6849e5f0eae, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_KnotwoodBark_LOD1.002
-    second: {fileID: 2100000, guid: f6a297b271c606a4b9da01ed31f226d2, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_KnotwoodLeaves.002
-    second: {fileID: 2100000, guid: 9251508a0798f9f458ac4d9417de91ec, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_KnotwoodLeaves_LOD1.002
-    second: {fileID: 2100000, guid: 2162c1fa3e43e2a4a87399e0b337d2f6, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_KnotwoodTree_SingleMat.002
-    second: {fileID: 2100000, guid: 24c24a8c3ca3e5447a77931ae6349db6, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

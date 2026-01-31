@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 32cdb3e895f714d4b9ea409e6ec3a6ae
+guid: 208125cd1f23bab4d81884c0973f7b0c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_Tumbleweed
-    second: {fileID: 2100000, guid: 989ecf2824138cd4087c67a725cbceae, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

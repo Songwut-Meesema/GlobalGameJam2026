@@ -1,34 +1,9 @@
 fileFormatVersion: 2
-guid: 71bd76601f800ee49a4cb511891ee9ef
+guid: ab565e272d54e0941958e6b2208ad13d
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_BambooBark.010
-    second: {fileID: 2100000, guid: c100dd9ff98e2a24ca2915e88268857c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_BambooBark_LOD1.010
-    second: {fileID: 2100000, guid: 4deedaa95b1c5d249a0d4952fd8f1e38, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_BambooSaplingLeaves.006
-    second: {fileID: 2100000, guid: b05e8d8326f67524bbb26db22c99c9aa, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_BambooSaplingLeaves_LOD1.006
-    second: {fileID: 2100000, guid: 36e2c5fe03470ba489fb07e3a84b38b5, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_BambooSapling_SingleMat.006
-    second: {fileID: 2100000, guid: 73dd6eecf0d5ff142852792192510002, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

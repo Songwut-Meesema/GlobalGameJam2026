@@ -1,19 +1,9 @@
 fileFormatVersion: 2
-guid: 7cbe82f5454fbf1418bcd498404f9371
+guid: 257c2493602d0cd41b5c66b13e03ee31
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_Sandfall
-    second: {fileID: 2100000, guid: 94407ea547aefb34a80b540a85ade496, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_Sandfall.003
-    second: {fileID: 2100000, guid: 94407ea547aefb34a80b540a85ade496, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

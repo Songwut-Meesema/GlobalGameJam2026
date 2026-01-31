@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 25cf27b8f90b4fb459f0baa0f001a1d0
+guid: a2a1b62495895254289e5af9ed854625
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_Rainbow
-    second: {fileID: 2100000, guid: 7d0a1761d44d85a4c9689cdb36925cf0, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

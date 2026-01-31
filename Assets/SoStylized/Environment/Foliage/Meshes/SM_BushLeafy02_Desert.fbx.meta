@@ -1,19 +1,9 @@
 fileFormatVersion: 2
-guid: 7a1cd33d7171cae4a852a2efe5fd5b8d
+guid: 5170b2130672dd44d9d2453aa8180404
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_BushLeafyLeaves.001
-    second: {fileID: 2100000, guid: 701432d2beccf0d4fb17e71a15f797e0, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_OakBark.007
-    second: {fileID: 2100000, guid: ec39f879edfcb2446aba85dbc0477f28, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

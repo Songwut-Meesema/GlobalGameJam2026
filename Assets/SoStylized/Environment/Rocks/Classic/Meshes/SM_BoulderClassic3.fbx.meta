@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: fcb6d88b475c5bd4db34010b453e2a0a
+guid: 07417cea171470340b23c56704fd0e82
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_RockClassic_Boulders.002
-    second: {fileID: 2100000, guid: 46a064fb56ec5b14a884d9f2ced4b452, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -42,7 +37,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importPhysicalCameras: 1

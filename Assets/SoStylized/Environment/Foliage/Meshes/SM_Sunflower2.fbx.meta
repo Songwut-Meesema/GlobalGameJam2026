@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 80874d8bcb2667a44a7b3f294d9fc0d5
+guid: 61c97be17442cfa46b1aac7c1c2ae1a1
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_Sunflower.001
-    second: {fileID: 2100000, guid: 1600556ebaf18e148a4d8aa0dcd48ac1, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: ede5e22962f12574eae96e6fdf19ba63
+guid: 3c43a03c6d3f8934690d8e87f70ae305
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_Rice.001
-    second: {fileID: 2100000, guid: 3a2f983a46acd9243a3df8909a0dc0f4, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

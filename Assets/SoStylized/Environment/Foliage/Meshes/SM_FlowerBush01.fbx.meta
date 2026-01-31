@@ -1,19 +1,9 @@
 fileFormatVersion: 2
-guid: d9f4a969a8ab24e42be0089e115a2cd8
+guid: dae3b5ec42127454381c1708facbc6a1
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_FlowerBushFlowers
-    second: {fileID: 2100000, guid: f5085cdf1b179c54bb068fec5327d688, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_FlowerBushLeaves
-    second: {fileID: 2100000, guid: 7a10144a7e9c6a449ab820d45d21ce1a, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

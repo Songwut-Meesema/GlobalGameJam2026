@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: f527a62b85e77a545b25632e57d0d7f2
+guid: 826b4e42e8b5569468da3481341c37d3
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_RedMapleBark.006
-    second: {fileID: 2100000, guid: 8a9ad8bf42b3a1c41b0ce69c15368463, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

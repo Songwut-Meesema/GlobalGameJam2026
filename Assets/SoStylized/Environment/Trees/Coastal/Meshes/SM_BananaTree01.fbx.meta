@@ -1,19 +1,9 @@
 fileFormatVersion: 2
-guid: 46e487ed089b30d49a011e4d0cef3e22
+guid: 2039dffde57c0214c9fb4821a7234c65
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_BananaBark
-    second: {fileID: 2100000, guid: 9fab539ec34711f448470eef08b18380, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_BananaLeaves
-    second: {fileID: 2100000, guid: 00d796dddca4df74b93b07c9777d8167, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

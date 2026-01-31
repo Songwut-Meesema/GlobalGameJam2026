@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 53704699863b6094aa6f60cb1ff00ce2
+guid: bc415c15fd13ff54e9c3f8c3f74b4e25
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_RockClassic_Shelves.001
-    second: {fileID: 2100000, guid: 2d49225b03a33254196214323f16883a, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -42,7 +37,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importPhysicalCameras: 1

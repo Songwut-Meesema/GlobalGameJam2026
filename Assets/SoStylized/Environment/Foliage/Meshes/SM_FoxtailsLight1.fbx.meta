@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 5ffd1d5cfbc275c4487ffddbf77df4a2
+guid: 8ed67b8b1656a1c4fa4320ffeafca548
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_FoxtailLight
-    second: {fileID: 2100000, guid: 3aaf9ba93199f654b89a3ab4dc33523e, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

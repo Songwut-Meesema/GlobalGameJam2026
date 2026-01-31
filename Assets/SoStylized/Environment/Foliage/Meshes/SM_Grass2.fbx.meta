@@ -1,24 +1,9 @@
 fileFormatVersion: 2
-guid: 458f0d09d5e50ea43b7fe19dcbc9c1ff
+guid: d0f8ea6b3ca1c8f43b2ac87554e009de
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_Grass.004
-    second: {fileID: 2100000, guid: dbeacc97b48e3f844ab7f41f13a6a707, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_Grass_LOD1.004
-    second: {fileID: 2100000, guid: 5dec688dddf36e148b55e378da7a9410, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_Grass_LOD2.004
-    second: {fileID: 2100000, guid: 36a847fdb60d4e44a9cd3a85eb6b5a34, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

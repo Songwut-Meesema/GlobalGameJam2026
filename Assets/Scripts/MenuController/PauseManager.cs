@@ -49,7 +49,6 @@ public class PauseManager : MonoBehaviour
         if (Conductor.Instance != null && Conductor.Instance.musicSource != null)
             Conductor.Instance.musicSource.UnPause();
 
-        // Fade Out UI ออกไป
         fadeCoroutine = StartCoroutine(FadePauseMenu(0f, false));
     }
 

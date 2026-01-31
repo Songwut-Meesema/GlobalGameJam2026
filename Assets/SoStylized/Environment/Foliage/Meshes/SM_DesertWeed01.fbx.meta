@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: b134f6d7d0d818f4281dba7ea02fa4c6
+guid: 75d8dc21e039c5e4a9e4779298fdedc9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_DesertWeed
-    second: {fileID: 2100000, guid: be2961c84a424e345be1ddf1780446e0, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

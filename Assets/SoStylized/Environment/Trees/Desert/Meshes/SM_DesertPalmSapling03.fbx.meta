@@ -1,34 +1,9 @@
 fileFormatVersion: 2
-guid: 06d65fad75992764986c373364425e0f
+guid: 7225c07ea1061f241b04cf30a82f3460
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_DesertPalmBark.002
-    second: {fileID: 2100000, guid: 11ce3ebbd748e55429326e65309509f3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_DesertPalmBark_LOD1.002
-    second: {fileID: 2100000, guid: f36a37b0f2fe86d41a710f8bf3e52b64, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_DesertPalmLeaves.002
-    second: {fileID: 2100000, guid: 9590f5a6f075541458f13382470f1b55, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_DesertPalmLeaves_LOD1.002
-    second: {fileID: 2100000, guid: 3719e255bc265ff41bb1741e8cd830d1, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_DesertPalmTree_SingleMat.002
-    second: {fileID: 2100000, guid: 4888144e86e9dc949a8a9fcb23bddc25, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

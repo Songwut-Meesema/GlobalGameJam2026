@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 579fdbc820b59044caaa7d8d4159a85a
+guid: e49a6bd32ffacd244b36a56d6e6561eb
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_ElephantEars.002
-    second: {fileID: 2100000, guid: 6b93e6ef5adf43e48b1f615e9f7abab5, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

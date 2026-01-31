@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 70b1d7c186e9e504abdf1b0b014f823f
+guid: 09198a21bb950424f8f187a506e694f0
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_RedFerns
-    second: {fileID: 2100000, guid: ff9df4eea12042a4c90a49afd495bd32, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

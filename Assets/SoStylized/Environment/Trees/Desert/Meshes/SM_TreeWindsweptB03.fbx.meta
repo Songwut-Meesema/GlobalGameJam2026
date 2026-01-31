@@ -1,29 +1,9 @@
 fileFormatVersion: 2
-guid: afbacca6be29cc74fb5e6b561341d1f8
+guid: e39de1f7c6cad97449446fb9b21eeea5
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_WindsweptBark.006
-    second: {fileID: 2100000, guid: 8b8fa44e5b689684e85b169efde1e88c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_WindsweptBark_LOD1.006
-    second: {fileID: 2100000, guid: 23b26c4e43b347443840acb2137f9f21, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_WindsweptLeaves.006
-    second: {fileID: 2100000, guid: f87f24eb9ce742f4097c7f3152ce4d75, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_WindsweptLeaves_LOD1.006
-    second: {fileID: 2100000, guid: 1c99923b56eb06f48b52ea4323e4ee7d, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

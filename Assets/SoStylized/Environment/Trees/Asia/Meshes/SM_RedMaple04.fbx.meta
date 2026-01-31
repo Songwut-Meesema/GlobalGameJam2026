@@ -1,34 +1,9 @@
 fileFormatVersion: 2
-guid: 3f73d24f1615ed64f85038f778d75f6e
+guid: eb3298d1105217a4887db9d0ab6ca48d
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_RedMapleBark.003
-    second: {fileID: 2100000, guid: 8a9ad8bf42b3a1c41b0ce69c15368463, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_RedMapleBark_LOD1.003
-    second: {fileID: 2100000, guid: dd631f0256e234449afca408d7e60964, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_RedMapleLeaves.003
-    second: {fileID: 2100000, guid: c2476663b82ac654489763920f609fa4, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_RedMapleLeaves_LOD1.003
-    second: {fileID: 2100000, guid: ae0a37092d4978746a6861ad6d8af86b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_RedMapleTree_SingleMat.003
-    second: {fileID: 2100000, guid: 87c02b4e8ce5e8e49a5093343a681559, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

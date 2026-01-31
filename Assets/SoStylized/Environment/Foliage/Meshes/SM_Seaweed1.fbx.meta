@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 49b5abdd68517844bbe71c156ba56af3
+guid: 07fb8c138f852914898059d527a9095d
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_Seaweed.002
-    second: {fileID: 2100000, guid: 2769e39717250864490d7757b1099a76, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

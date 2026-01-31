@@ -1,19 +1,9 @@
 fileFormatVersion: 2
-guid: ff5cfad163d46ae4ba5089fc375dabfe
+guid: ffd636916f75f4c44b08441344b1cfcc
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_WaterWaves
-    second: {fileID: 2100000, guid: b94ebdeeef84d3641b2a67aaa61db1df, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_Waterfall
-    second: {fileID: 2100000, guid: 80c2858e7064fcf429b3ce18187670ac, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 2d9c78c3f6427794d84292ccc25e83d9
+guid: 698393308f7c6d5478f487cafa0a543c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_RockDesert
-    second: {fileID: 2100000, guid: ce08cc7acf17ec940975d7463c68257e, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

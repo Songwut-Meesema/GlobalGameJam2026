@@ -1,19 +1,9 @@
 fileFormatVersion: 2
-guid: 11527e7d2ec91ed4f8e73305a69c9ec2
+guid: f062d86922453764186071f635a041d2
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_FirBark.006
-    second: {fileID: 2100000, guid: aaa4bb0f783bee74599431a5fb32971e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_FirLeaves_Dry.003
-    second: {fileID: 2100000, guid: 6e42f5f7d25f31a4086ca98a99656175, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

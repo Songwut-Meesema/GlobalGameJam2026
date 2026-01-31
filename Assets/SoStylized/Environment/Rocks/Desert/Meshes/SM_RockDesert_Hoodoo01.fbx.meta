@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 0f54bc4fd091a3641b6f6bb2e235674d
+guid: cdac61507cf36f545908c93261da9485
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_RockDesert_Hoodoo
-    second: {fileID: 2100000, guid: 137593b14d130554a9080382baf0acb4, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -42,7 +37,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importPhysicalCameras: 1

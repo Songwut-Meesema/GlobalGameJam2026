@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 2677a54af0570eb4d8e68d065b06dfda
+guid: 19b5fa42984f6384bbb7f3e24b1ca038
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_CactusPricklyPear.002
-    second: {fileID: 2100000, guid: 89064a5d33aa8ba4e9a50189e1362353, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 96e099b8e6fc14d409053403ed821d3e
+guid: c0ced5fac4c3fe343b72464b15bb9029
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_RockClassic_Rocks.009
-    second: {fileID: 2100000, guid: 8f0029f077d0f4c4fa259d719bc3590c, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -42,7 +37,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importPhysicalCameras: 1

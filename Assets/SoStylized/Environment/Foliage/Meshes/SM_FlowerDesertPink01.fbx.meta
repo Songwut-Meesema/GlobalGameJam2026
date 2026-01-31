@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 6c4765087505a3e4fba943b4818438c5
+guid: d9253834c3ee61549b23763addcce4e3
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_FlowerDesertPink
-    second: {fileID: 2100000, guid: 8dbee81e458fbc94c9a95fee18c46c43, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a166496f153e84647a5cb996708078ea, type: 3}
   m_Name: HitNote
   m_EditorClassIdentifier: 
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: 87009103881fce94f920c153882b3532, type: 3}
   volume: 1
   pitchMin: 1
   pitchMax: 1

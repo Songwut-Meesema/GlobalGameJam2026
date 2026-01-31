@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: f61e2c4ac9f7277409b90b2b57791a90
+guid: 55515d662463b7842aa12ca75b80f9d2
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_FlowerDesertBulb
-    second: {fileID: 2100000, guid: f15fe3d4fc1285d4f9de0f4c35406973, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

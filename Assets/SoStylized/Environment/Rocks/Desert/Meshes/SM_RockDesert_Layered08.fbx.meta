@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 3b37a8764a6bc604c808dd5de9cff4a9
+guid: 81650138f4205704d9649c002d8f8c8e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_RockDesert.049
-    second: {fileID: 2100000, guid: c76271c7056cdf6469ecb2c6b1ed2169, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -42,7 +37,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importPhysicalCameras: 1

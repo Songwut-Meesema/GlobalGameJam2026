@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: a56337eaa4966bd4fb71bc05785f3693
+guid: b398b3da59cf2f749854fce62db1f878
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_RockClassic_Cliff.002
-    second: {fileID: 2100000, guid: 569cbdce566ba0c49918371758498656, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -42,7 +37,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importPhysicalCameras: 1

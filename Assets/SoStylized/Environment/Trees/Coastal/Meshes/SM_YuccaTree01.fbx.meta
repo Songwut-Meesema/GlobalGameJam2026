@@ -1,19 +1,9 @@
 fileFormatVersion: 2
-guid: a77f8a30da31c394ba290b0e0792e430
+guid: 3a455699eb0c6414e8d38bd2d9158f00
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_YuccaBark
-    second: {fileID: 2100000, guid: 4273d2cc6fffb1e47864bbbe02aa1d5f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_YuccaLeaves
-    second: {fileID: 2100000, guid: 66394ba1930eaac4f8ff0bcfa3d96fbc, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

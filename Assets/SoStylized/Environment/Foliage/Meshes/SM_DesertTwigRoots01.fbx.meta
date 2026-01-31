@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 93b2885bcffbf7547bb3a412ef4325d1
+guid: 5b883db0c3f402d48bd42653ad741b0a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_DesertTwigRoots
-    second: {fileID: 2100000, guid: 20b315175bf84244289be6d1180dae83, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

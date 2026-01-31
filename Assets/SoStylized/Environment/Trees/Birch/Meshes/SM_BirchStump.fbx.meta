@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: e11d6527c3ac1bc48956ebee45bb9e2f
+guid: 6a20f1945c699724682c0754eb65da5c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_BirchBarkMisc
-    second: {fileID: 2100000, guid: 18083614c1299b746a7bd21b795c651a, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

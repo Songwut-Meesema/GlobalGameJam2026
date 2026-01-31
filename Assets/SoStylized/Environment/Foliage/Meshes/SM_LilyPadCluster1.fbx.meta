@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: ccbfd46ee6f892e42bf69f31a497d38d
+guid: 5c1cf7c36ef9d5748882bdab4bdd160b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_LilyPads.003
-    second: {fileID: 2100000, guid: f65bd54e4c4a63b41b9adfb5e817b99d, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

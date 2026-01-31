@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 144728ed7d4e8cd4a93562f67e61fa46
+guid: e956a6ec0adb8314194672557ab60247
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_BeachShells.003
-    second: {fileID: 2100000, guid: 5f56892801fdbb149b521d8e89f51188, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 64aaee92e3cfa314395f0847982ae393
+guid: 598eac5f5ba53b442989b6631998fdf4
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_FlowersIce.003
-    second: {fileID: 2100000, guid: bb0bc5002b3b0054fb594820e67be2fb, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

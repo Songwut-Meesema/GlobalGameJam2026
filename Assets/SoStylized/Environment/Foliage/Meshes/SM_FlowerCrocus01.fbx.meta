@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 1ccee70dc0a1fcd4ead86a361255275d
+guid: 5d23554953b5aa24981acb069bc82202
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MI_FlowerCrocus.003
-    second: {fileID: 2100000, guid: bb3bdbbfcead94f4193e37459f936a61, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
