@@ -74,8 +74,6 @@ public class NoteSpawner : MonoBehaviour
         {
             SetNoteProbability<NoteBomb>(40f);
         }
-
-        StartCoroutine(DelayBeforeNextPhase(delayDurationBeforeNextPhase));
     }
 
     void Update()
@@ -127,19 +125,6 @@ public class NoteSpawner : MonoBehaviour
             weightTable[currentSlot] = 0;
             currentSlot++;
         }
-    }
-
-    private IEnumerator DelayBeforeNextPhase(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        float songTime = Conductor.Instance.songPositionSeconds;
-        while (nextIndex < songData.notes.Count &&
-               songData.notes[nextIndex].timeInSeconds < songTime + currentTravelTime)
-        {
-            nextIndex++;
-        }
-
-        isEnterNewPhase = false;
     }
 
     private void SetNoteProbability<T>(float targetPercent) where T : MonoBehaviour
