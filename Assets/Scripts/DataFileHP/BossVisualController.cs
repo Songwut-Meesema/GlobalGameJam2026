@@ -3,6 +3,7 @@ using UnityEngine;
 public class BossVisualController : MonoBehaviour
 {
     [SerializeField] private Renderer bossRenderer;
+    [SerializeField] private float scaleOffset = 1.1f;
     [SerializeField] private Texture2D texPhase1;
     [SerializeField] private Texture2D texPhase2;
     [SerializeField] private Texture2D texPhase3;
@@ -19,7 +20,6 @@ public class BossVisualController : MonoBehaviour
 
         bossRenderer.material.mainTexture = targetTex;
         
-        // Optional: Add some scaling effect on phase changer (Boss size increase)
-        //transform.localScale *= 1.1f;
+        transform.localScale *= scaleOffset;
     }
 }

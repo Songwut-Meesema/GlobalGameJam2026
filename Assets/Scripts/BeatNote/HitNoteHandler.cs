@@ -12,7 +12,7 @@ public class HitNoteHandler : MonoBehaviour
     [SerializeField] int originalLane;
     [SerializeField] float revertDelay = 0.5f;
     [SerializeField] GameObject vfxPerfectHitObject;
-    [SerializeField] GameObject vfxtHitObject;
+    [SerializeField] GameObject vfxHitObject;
     private Coroutine revertCoroutine;
 
     private void Start()
@@ -23,15 +23,15 @@ public class HitNoteHandler : MonoBehaviour
 
     private void OnEnable()
     {
-        NoteObject.OnNoteHit += NoteHitUpdate;
-        NoteObject.OnNoteHitPerfect += NotePerfectHitUpdate;
-        NoteObject.OnNoteMiss += NoteMissUpdate;
+        NoteEvents.OnNoteHit += NoteHitUpdate;
+        NoteEvents.OnNotePerfectHit += NotePerfectHitUpdate;
+        NoteEvents.OnNoteMiss += NoteMissUpdate;
     }
     private void OnDisable()
     {
-        NoteObject.OnNoteHit -= NoteHitUpdate;
-        NoteObject.OnNoteHitPerfect -= NotePerfectHitUpdate;
-        NoteObject.OnNoteMiss -= NoteMissUpdate;
+        NoteEvents.OnNoteHit -= NoteHitUpdate;
+        NoteEvents.OnNotePerfectHit -= NotePerfectHitUpdate;
+        NoteEvents.OnNoteMiss -= NoteMissUpdate;
     }
 
     private void NoteHitUpdate(int lane)
@@ -39,7 +39,8 @@ public class HitNoteHandler : MonoBehaviour
         if (originalLane != lane)
             return;
         hitLaneMaterial.color = hitMaterial.color;
-        Instantiate(vfxtHitObject, transform.position, Quaternion.identity);
+        GameObject vfxInstance = Instantiate(vfxHitObject, transform.position, Quaternion.identity);
+        Destroy(vfxInstance, 1f);
         ChangeBackMaterial();
     }
 
@@ -48,7 +49,8 @@ public class HitNoteHandler : MonoBehaviour
         if (originalLane != lane)
             return;
         hitLaneMaterial.color = perfectHitMaterial.color;
-        Instantiate(vfxPerfectHitObject, transform.position, Quaternion.identity);
+        GameObject vfxInstance = Instantiate(vfxPerfectHitObject, transform.position, Quaternion.identity);
+        Destroy(vfxInstance, 1f);
         ChangeBackMaterial();
     }
 

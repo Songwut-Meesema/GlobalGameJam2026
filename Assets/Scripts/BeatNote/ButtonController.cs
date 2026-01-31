@@ -6,11 +6,13 @@ public class ButtonController : MonoBehaviour
 {
     private PlayerInputActions inputActions;
     public static event Action<int> OnPlayerHit;
+    public static event Action OnPauseTriggered;
 
     private void Awake()
     {
         if (inputActions == null)
             inputActions = new PlayerInputActions();
+        HideCursor();
     }
 
     private void OnEnable()
@@ -23,6 +25,7 @@ public class ButtonController : MonoBehaviour
         inputActions.Control.LeftF.performed += OnLeftF;
         inputActions.Control.RightJ.performed += OnRightJ;
         inputActions.Control.RightK.performed += OnRightK;
+        inputActions.Control.Pause.performed += OnRightK;
     }
 
     private void OnDisable()
@@ -54,8 +57,23 @@ public class ButtonController : MonoBehaviour
         OnPlayerHit?.Invoke(lane);
     }
 
+    
+    public void HideCursor()
+    {
+        Cursor.visible =false;
+        Cursor.lockState= CursorLockMode.Locked;
+    }
+
+    public void ShowCursor()
+    {
+        Cursor.visible =true;
+        Cursor.lockState= CursorLockMode.None;
+
+    }
+
     private void OnLeftD(InputAction.CallbackContext ctx) => Emit(0);
     private void OnLeftF(InputAction.CallbackContext ctx) => Emit(1);
     private void OnRightJ(InputAction.CallbackContext ctx) => Emit(2);
     private void OnRightK(InputAction.CallbackContext ctx) => Emit(3);
+    private void OnEscape() => OnPauseTriggered?.Invoke();
 }

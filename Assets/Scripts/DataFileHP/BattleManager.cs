@@ -3,17 +3,18 @@ using UnityEngine;
 public class BattleManager : MonoBehaviour
 {
     [Header("Stats References")]
-    public CharacterStats playerStats;
-    public CharacterStats currentEnemyStats;
+    [SerializeField] private CharacterStats playerStats;
+    [SerializeField] private CharacterStats currentEnemyStats;
 
     [Header("Damage Settings")]
-    public float damageToEnemyNormal = 10f;
-    public float damageToEnemyPerfect = 20f;
-    public float damageToPlayer = 15f;
+    [SerializeField] private float damageToEnemyNormal = 10f;
+    [SerializeField] private float damageToEnemyPerfect = 20f;
+    [SerializeField] private float damageNoteToPlayer = 15f;
+    [SerializeField] private float damageBombToPlayer = 30f;
 
     [Header("UI References")]
-    public GameObject winUI;  
-    public GameObject loseUI; 
+    [SerializeField] private GameObject winUI;  
+    [SerializeField] private GameObject loseUI; 
 
     private bool isGameOver = false;
 
@@ -33,16 +34,20 @@ public class BattleManager : MonoBehaviour
 
     private void OnEnable()
     {
-        NoteObject.OnNoteHit += HandleNoteHit;
-        NoteObject.OnNoteHitPerfect += HandleNoteHitPerfect;
-        NoteObject.OnNoteMiss += HandleNoteMiss;
+        // Subscribe to your NoteObject Static Events
+        NoteEvents.OnNoteHit += HandleNoteHit;
+        NoteEvents.OnNotePerfectHit += HandleNoteHitPerfect;
+        NoteEvents.OnNoteMiss += HandleNoteMiss;
+        NoteEvents.OnBombHit += HandleBombHit;
     }
 
     private void OnDisable()
     {
-        NoteObject.OnNoteHit -= HandleNoteHit;
-        NoteObject.OnNoteHitPerfect -= HandleNoteHitPerfect;
-        NoteObject.OnNoteMiss -= HandleNoteMiss;
+        NoteEvents.OnNoteHit -= HandleNoteHit;
+        NoteEvents.OnNotePerfectHit -= HandleNoteHitPerfect;
+        NoteEvents.OnNoteMiss -= HandleNoteMiss;
+        NoteEvents.OnBombHit -= HandleBombHit;
+
     }
 
     private void HandleNoteHit(int lane)
@@ -69,7 +74,17 @@ public class BattleManager : MonoBehaviour
     {
         if (isGameOver) return;
 
-        playerStats.TakeDamage(damageToPlayer);
+        playerStats.TakeDamage(damageNoteToPlayer);
+        BattleEvents.TriggerPlayerHurt();
+        BattleEvents.TriggerEnemyAttack();
+        CheckPlayerDeath();
+    }
+
+    private void HandleBombHit(int lane)
+    {
+        if (isGameOver) return;
+
+        playerStats.TakeDamage(damageBombToPlayer);
         BattleEvents.TriggerPlayerHurt();
         BattleEvents.TriggerEnemyAttack();
         CheckPlayerDeath();
@@ -93,7 +108,7 @@ public class BattleManager : MonoBehaviour
         if (playerStats.currentHp <= 0 && !isGameOver)
         {
             isGameOver = true;
-            Debug.Log("<color=red>[BATTLE] Player Defeated!</color>");
+            // Debug.Log("<color=red>[BATTLE] Player Defeated!</color>");
             if (loseUI != null) loseUI.SetActive(true);
             
             // stop music when lose

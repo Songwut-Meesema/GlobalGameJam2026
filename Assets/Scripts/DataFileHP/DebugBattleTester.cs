@@ -17,7 +17,7 @@ public class DebugBattleTester : MonoBehaviour
         // กด N = จำลองการกดแบบ Perfect
         if (Input.GetKeyDown(KeyCode.N))
         {
-            Debug.Log("[Test] Simulating: OnNoteHitPerfect");
+            Debug.Log("[Test] Simulating: OnNotePerfectHit");
             TestTrigger.InvokePerfect();
         }
 
@@ -43,7 +43,7 @@ public static class TestTrigger {
     }
     public static void InvokePerfect() {
         var type = typeof(NoteObject);
-        var eventField = type.GetField("OnNoteHitPerfect", BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic);
+        var eventField = type.GetField("OnNotePerfectHit", BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic);
         if (eventField != null) {
             var action = (System.Action)eventField.GetValue(null);
             action?.Invoke();

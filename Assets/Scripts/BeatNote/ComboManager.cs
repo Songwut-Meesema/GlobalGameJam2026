@@ -22,16 +22,16 @@ public class ComboManager : MonoBehaviour
     private bool isNoteMissed = false;
     private void OnEnable()
     {
-        NoteObject.OnNoteHit += HandleHit;
-        NoteObject.OnNoteHitPerfect += HandleHit; 
-        NoteObject.OnNoteMiss += HandleNoteMiss;
+        NoteEvents.OnNoteHit += HandleHit;
+        NoteEvents.OnNotePerfectHit += HandleHit; 
+        NoteEvents.OnNoteMiss += HandleNoteMiss;
     }
 
     private void OnDisable()
     {
-        NoteObject.OnNoteHit -= HandleHit;
-        NoteObject.OnNoteHitPerfect -= HandleHit;
-        NoteObject.OnNoteMiss -= HandleNoteMiss;
+        NoteEvents.OnNoteHit -= HandleHit;
+        NoteEvents.OnNotePerfectHit -= HandleHit;
+        NoteEvents.OnNoteMiss -= HandleNoteMiss;
     }
 
     private void HandleHit(int lane)

@@ -20,4 +20,9 @@ public class CharacterStats : ScriptableObject
         currentHp = Mathf.Max(0, currentHp - amount);
         OnHpChanged?.Invoke(currentHp, maxHp);
     }
+
+    public void ResetHealth() {
+        currentHp = maxHp;
+        OnHpChanged?.Invoke(currentHp, maxHp);
+    }
 }

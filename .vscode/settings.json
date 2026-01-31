@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "GlobalGameJam2026.sln"
+    "dotnet.defaultSolution": "Rythm game Global game jam.sln"
 }

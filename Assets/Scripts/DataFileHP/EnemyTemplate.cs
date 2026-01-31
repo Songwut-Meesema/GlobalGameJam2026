@@ -7,6 +7,6 @@ public class EnemyTemplate : ScriptableObject
 {
     public string enemyName;
     public float maxHp = 100f;
-    public GameObject visualPrefab; // model or sprite for the enemy
-    public float normalDamage = 10f; // dmg when u miss a note
+    public GameObject visualPrefab; 
+    public float normalDamage = 10f; 
 }
