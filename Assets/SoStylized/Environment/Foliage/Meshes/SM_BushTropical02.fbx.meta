@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 9d12c7d6baf579a4aab66ae2384a4a46
+guid: bbba70bd220877246af93a4b5581c9e1
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_BushTropical.001
+    second: {fileID: 2100000, guid: 32b36bb8464682a44a276abc97023f74, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

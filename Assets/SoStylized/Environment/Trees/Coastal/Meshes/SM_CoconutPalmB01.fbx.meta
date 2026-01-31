@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: 6ffdbe798d6939c41a55e52969e6f4b6
+guid: 77fb8b51bac62264c82c306afc092f73
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_CoconutPalmBark.005
+    second: {fileID: 2100000, guid: 22f7d2f7c2be9b844a80038103bea957, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_CoconutPalmLeaves.005
+    second: {fileID: 2100000, guid: 68bc0572746c784469796ee02479673f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 06ebd174f1456da46ae91c25a8a10df1
+guid: 89e161c2608498b4d9eead50001ca1db
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_PalmBarkMisc.003
+    second: {fileID: 2100000, guid: 1425b0383ba61374c9e87085dbaa574a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

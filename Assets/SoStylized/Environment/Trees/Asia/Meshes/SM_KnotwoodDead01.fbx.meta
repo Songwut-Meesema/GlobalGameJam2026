@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: a4cf028798d9ef946b81ad876b0408ed
+guid: ff96c65f766cf2d478615bb7c49b3153
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_KnotwoodBark
+    second: {fileID: 2100000, guid: fd27d8b4f5267dd4ab27d6849e5f0eae, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: 3c82b7a05e520a64bbcc66f1b8469382
+guid: 07774b4ebfdebf440bd568e90db40b39
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_PineSnow
+    second: {fileID: 2100000, guid: 3adc334201649de44a7aacf12eca2ddc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_PineSnow.004
+    second: {fileID: 2100000, guid: 3adc334201649de44a7aacf12eca2ddc, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

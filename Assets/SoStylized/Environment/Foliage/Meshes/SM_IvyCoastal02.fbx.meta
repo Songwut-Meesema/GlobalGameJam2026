@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 827330aadea4c814dbb8e50784344187
+guid: c5d7878f526acbd48afdcc172e29c527
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_IvyCoastal.001
+    second: {fileID: 2100000, guid: 149ade9f10209cb478d63d0a1e00ee93, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

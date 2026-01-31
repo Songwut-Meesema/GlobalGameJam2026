@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: ec7438b2ddf66fd4b92a0f988f384578
+guid: 7853d37a1779b9f47b13346ba0c799da
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Tulips.002
+    second: {fileID: 2100000, guid: 884b3419dc207774183feecabeeca8b4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
