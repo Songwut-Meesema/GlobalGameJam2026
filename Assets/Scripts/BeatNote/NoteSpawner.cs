@@ -5,30 +5,28 @@ using UnityEngine;
 public class NoteSpawner : MonoBehaviour
 {
     [Header("References")]
-    public SongData songData;
+    public SongData songData; 
     public GameObject notePrefab;
     public Transform[] laneSpawnPoints;
     public Transform[] laneHitPoints;
-    [SerializeField] private AudioSource musicSource;
+    [SerializeField] public AudioSource musicSource;
 
     [Header("Settings")]
     public float noteTravelTime = 2f; 
     
-    private float currentTravelTime; // speed for current phase
+    private float currentTravelTime; 
     private int nextIndex = 0;
     private bool musicStarted = false;
     private double dspSongStartTime;
 
     void Start()
     {
-        // เริ่มต้นด้วยความเร็วพื้นฐาน
         currentTravelTime = noteTravelTime;
         StartSong();
     }
 
     private void OnEnable()
     {
-        //listen to phase change to adjust note speed
         BossPhaseManager.OnPhaseChanged += HandlePhaseSpeed;
     }
 
@@ -37,33 +35,69 @@ public class NoteSpawner : MonoBehaviour
         BossPhaseManager.OnPhaseChanged -= HandlePhaseSpeed;
     }
 
+
     public void StartSong()
     {
-        //time dilation for audio sync accuracy
+        if (songData == null || musicSource == null) return;
+
+        if (songData.musicClip != null) musicSource.clip = songData.musicClip;
+
+        //load new clip
         dspSongStartTime = AudioSettings.dspTime + 1.0f; 
         musicSource.PlayScheduled(dspSongStartTime);
+        
+        if (Conductor.Instance != null)
+        {
+            Conductor.Instance.dspSongTime = (float)dspSongStartTime;
+            Conductor.Instance.songPositionSeconds = 0f;
+        }
+
         musicStarted = true;
+        nextIndex = 0; //read new note of first note
+        Debug.Log($"<color=green>[Spawner]</color> Song Started: {musicSource.clip.name}");
+    }
+
+    public void StopSpawner()
+    {
+        musicStarted = false;
+        if (musicSource != null) musicSource.Stop();
+        
+        // clear reamining notes
+        ClearAllActiveNotes();
+        
+        Debug.Log("<color=red>[Spawner]</color> Spawner Stopped & Cleared");
+    }
+
+    public void RestartSpawnerWithNewData()
+    {
+       //called by sequencer after changing song data
+        StopSpawner();
+        StartSong();
+    }
+
+    private void ClearAllActiveNotes()
+    {
+        NoteObject[] notes = Object.FindObjectsOfType<NoteObject>();
+        foreach (NoteObject n in notes)
+        {
+            Destroy(n.gameObject);
+        }
     }
 
     private void HandlePhaseSpeed(int phase)
     {
-        //higher phase = travel time less
-        // Phase 1: 2.0s | Phase 2: 1.6s | Phase 3: 1.2s (Examlple)
+        // adjust travel time according to phase
         currentTravelTime = noteTravelTime - (phase - 1) * 0.4f;
-        
-        // ป้องกันไม่ให้เร็วเกินไปจนกดไม่ได้ (ต่ำสุด 0.8 วินาที)
         currentTravelTime = Mathf.Max(currentTravelTime, 0.8f);
-
-        Debug.Log($"<color=cyan>[Spawner]</color> Speed Updated: {currentTravelTime}s");
     }
 
     void Update()
     {
-        if (!musicStarted || Conductor.Instance == null) return;
+        if (!musicStarted || Conductor.Instance == null || songData == null) return;
 
         float songTime = Conductor.Instance.songPositionSeconds;
 
-      
+        // check and spawn notes
         while (nextIndex < songData.notes.Count &&
                songData.notes[nextIndex].timeInSeconds <= songTime + currentTravelTime)
         {
