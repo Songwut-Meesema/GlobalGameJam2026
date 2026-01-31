@@ -22,8 +22,6 @@ public class CameraJuice : MonoBehaviour
     }
 
     private void Start() => originalPos = transform.localPosition;
-
-    // สร้าง Method แยกเพื่อให้ Event เรียกใช้ได้ถูกต้อง
     private void HandleHit(int _) => StartShake(0.08f, 0.1f);
     private void HandlePerfect(int _) => StartShake(0.2f, 0.15f);
     private void HandleMiss(int _) => StartShake(0.4f, 0.2f);
