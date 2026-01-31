@@ -8,7 +8,12 @@ public class HealthBarUpdater : MonoBehaviour
 
     private void OnEnable()
     {
-        if (stats != null) stats.OnHpChanged += UpdateUI;
+        if (stats != null) 
+        {
+            stats.OnHpChanged += UpdateUI;
+            // ดึงค่าปัจจุบันมาแสดงทันที
+            UpdateUI(stats.currentHp, stats.maxHp);
+        }
     }
 
     private void OnDisable()
@@ -16,21 +21,15 @@ public class HealthBarUpdater : MonoBehaviour
         if (stats != null) stats.OnHpChanged -= UpdateUI;
     }
 
-    private void Start()
-    {
-        if (stats != null)
-        {
-            float initialHp = stats.currentHp > 0 ? stats.currentHp : stats.maxHp;
-            UpdateUI(initialHp, stats.maxHp);
-        }
-    }
-
     void UpdateUI(float cur, float max)
     {
-        if (slider != null && max > 0)
+        if (slider != null)
         {
-            slider.value = cur;
+            slider.minValue = 0;
+            slider.maxValue = max; 
+            slider.value = cur; 
+
+            Debug.Log($"HP Update: {cur}/{max} -> Slider Value: {slider.value}");
         }
-        // Debug.Log($"Updating Health Bar: Current HP = {cur}, Max HP = {max}, Slider Value = {slider.value}");
     }
 }

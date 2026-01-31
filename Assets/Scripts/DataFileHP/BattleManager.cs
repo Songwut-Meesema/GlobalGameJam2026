@@ -16,7 +16,7 @@ public class BattleManager : MonoBehaviour
     [Header("UI References")]
     public GameObject winUI; // UI Continue
 
-    private void Start()
+    private void Awake()
     {
         // ต้อง Reset เลือดทุกครั้งที่เริ่มฉาก
         if (playerStats != null) playerStats.Initialize();

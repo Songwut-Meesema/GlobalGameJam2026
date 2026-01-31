@@ -1,43 +1,62 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class ButtonController : MonoBehaviour
 {
     private PlayerInputActions inputActions;
-    private InputAction press;
     public static event Action<int> OnPlayerHit;
 
     private void Awake()
     {
-        inputActions = new PlayerInputActions();
-        // Debug.Log("[SYSTEM] ButtonController Awake - Script is running.");
+        // สร้าง Instance ครั้งเดียว
+        if (inputActions == null)
+            inputActions = new PlayerInputActions();
     }
+
     private void OnEnable()
     {
+        // ตรวจสอบความปลอดภัยก่อน Enable
+        if (inputActions == null) inputActions = new PlayerInputActions();
+
         inputActions.Control.Enable();
+        
+        // สมัคร Event
         inputActions.Control.LeftD.performed += OnLeftD;
         inputActions.Control.LeftF.performed += OnLeftF;
         inputActions.Control.RightJ.performed += OnRightJ;
         inputActions.Control.RightK.performed += OnRightK;
-
-        // Debug.Log("[SYSTEM] Input Actions Enabled and Subscribed.");
     }
 
     private void OnDisable()
     {
-        inputActions.Control.LeftD.performed -= OnLeftD;
-        inputActions.Control.LeftF.performed -= OnLeftF;
-        inputActions.Control.RightJ.performed -= OnRightJ;
-        inputActions.Control.RightK.performed -= OnRightK;
-        inputActions.Control.Disable();
+        if (inputActions != null)
+        {
+            // สำคัญมาก: ต้องถอนการสมัครให้หมดเพื่อไม่ให้เกิด MissingReference
+            inputActions.Control.LeftD.performed -= OnLeftD;
+            inputActions.Control.LeftF.performed -= OnLeftF;
+            inputActions.Control.RightJ.performed -= OnRightJ;
+            inputActions.Control.RightK.performed -= OnRightK;
+            
+            inputActions.Control.Disable();
+        }
     }
-    void Emit(int lane)
+
+    private void OnDestroy()
     {
-        // LOG 1: Check if input is reaching the code
-        // Debug.Log($"[INPUT] Key pressed for Lane: {lane} at SongTime: {Conductor.Instance.songPositionSeconds}");
+        // คืนหน่วยความจำและล้างระบบ Input เมื่อ Object นี้หายไปจากเกมจริง ๆ
+        if (inputActions != null)
+        {
+            inputActions.Dispose();
+            inputActions = null;
+        }
+    }
+
+    private void Emit(int lane)
+    {
+        // เช็คว่า Conductor พร้อมไหม (ป้องกัน Error เวลาโหลดซีน)
+        if (Conductor.Instance == null) return;
+        
         OnPlayerHit?.Invoke(lane);
     }
 
@@ -46,4 +65,3 @@ public class ButtonController : MonoBehaviour
     private void OnRightJ(InputAction.CallbackContext ctx) => Emit(2);
     private void OnRightK(InputAction.CallbackContext ctx) => Emit(3);
 }
-
