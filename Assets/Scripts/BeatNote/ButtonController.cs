@@ -9,19 +9,16 @@ public class ButtonController : MonoBehaviour
 
     private void Awake()
     {
-        // สร้าง Instance ครั้งเดียว
         if (inputActions == null)
             inputActions = new PlayerInputActions();
     }
 
     private void OnEnable()
     {
-        // ตรวจสอบความปลอดภัยก่อน Enable
         if (inputActions == null) inputActions = new PlayerInputActions();
 
         inputActions.Control.Enable();
         
-        // สมัคร Event
         inputActions.Control.LeftD.performed += OnLeftD;
         inputActions.Control.LeftF.performed += OnLeftF;
         inputActions.Control.RightJ.performed += OnRightJ;
@@ -32,7 +29,6 @@ public class ButtonController : MonoBehaviour
     {
         if (inputActions != null)
         {
-            // สำคัญมาก: ต้องถอนการสมัครให้หมดเพื่อไม่ให้เกิด MissingReference
             inputActions.Control.LeftD.performed -= OnLeftD;
             inputActions.Control.LeftF.performed -= OnLeftF;
             inputActions.Control.RightJ.performed -= OnRightJ;
@@ -44,7 +40,6 @@ public class ButtonController : MonoBehaviour
 
     private void OnDestroy()
     {
-        // คืนหน่วยความจำและล้างระบบ Input เมื่อ Object นี้หายไปจากเกมจริง ๆ
         if (inputActions != null)
         {
             inputActions.Dispose();
@@ -54,7 +49,6 @@ public class ButtonController : MonoBehaviour
 
     private void Emit(int lane)
     {
-        // เช็คว่า Conductor พร้อมไหม (ป้องกัน Error เวลาโหลดซีน)
         if (Conductor.Instance == null) return;
         
         OnPlayerHit?.Invoke(lane);
