@@ -25,7 +25,7 @@ public class ButtonController : MonoBehaviour
         inputActions.Control.LeftF.performed += OnLeftF;
         inputActions.Control.RightJ.performed += OnRightJ;
         inputActions.Control.RightK.performed += OnRightK;
-        inputActions.Control.Pause.performed += OnRightK;
+        inputActions.Control.Pause.performed += OnEscape;
     }
 
     private void OnDisable()
@@ -36,6 +36,8 @@ public class ButtonController : MonoBehaviour
             inputActions.Control.LeftF.performed -= OnLeftF;
             inputActions.Control.RightJ.performed -= OnRightJ;
             inputActions.Control.RightK.performed -= OnRightK;
+            inputActions.Control.Pause.performed -= OnEscape;
+
             
             inputActions.Control.Disable();
         }
@@ -75,5 +77,5 @@ public class ButtonController : MonoBehaviour
     private void OnLeftF(InputAction.CallbackContext ctx) => Emit(1);
     private void OnRightJ(InputAction.CallbackContext ctx) => Emit(2);
     private void OnRightK(InputAction.CallbackContext ctx) => Emit(3);
-    private void OnEscape() => OnPauseTriggered?.Invoke();
+    private void OnEscape(InputAction.CallbackContext ctx) => OnPauseTriggered?.Invoke();
 }

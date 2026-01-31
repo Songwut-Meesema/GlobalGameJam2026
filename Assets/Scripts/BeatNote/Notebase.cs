@@ -65,10 +65,12 @@ public static class NoteEvents
     
     // สำหรับ Note พิเศษ
     public static Action<int> OnBombHit; 
+    public static Action<int, float> OnHealingNoteHit; 
 
     // Helper methods เพื่อให้เรียกง่ายขึ้น
     public static void TriggerNormalHit(int lane) => OnNoteHit?.Invoke(lane);
     public static void TriggerPerfectHit(int lane) => OnNotePerfectHit?.Invoke(lane);
     public static void TriggerMiss(int lane) => OnNoteMiss?.Invoke(lane);
     public static void TriggerBombHit(int lane) => OnBombHit?.Invoke(lane);
+    public static void TriggerHeal(int lane, float amount) => OnHealingNoteHit?.Invoke(lane, amount);
 }

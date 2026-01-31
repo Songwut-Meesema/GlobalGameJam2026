@@ -4,7 +4,8 @@ using UnityEngine;
 [System.Serializable]
 public struct NoteInfo {
     public float timeInSeconds; 
-    public int laneIndex;       
+    public int laneIndex; 
+    public float duration;      
 }
 
 [CreateAssetMenu(fileName = "SoData", menuName = "RhythmGame/SongData")]

@@ -21,6 +21,11 @@ public class CharacterStats : ScriptableObject
         OnHpChanged?.Invoke(currentHp, maxHp);
     }
 
+    public void Heal(float amount) {
+        currentHp = Mathf.Min(maxHp, currentHp + amount);
+        OnHpChanged?.Invoke(currentHp, maxHp);
+    }
+
     public void ResetHealth() {
         currentHp = maxHp;
         OnHpChanged?.Invoke(currentHp, maxHp);

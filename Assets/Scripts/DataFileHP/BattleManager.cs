@@ -39,6 +39,7 @@ public class BattleManager : MonoBehaviour
         NoteEvents.OnNotePerfectHit += HandleNoteHitPerfect;
         NoteEvents.OnNoteMiss += HandleNoteMiss;
         NoteEvents.OnBombHit += HandleBombHit;
+        NoteEvents.OnHealingNoteHit += HandleHealingNoteHit;
     }
 
     private void OnDisable()
@@ -47,7 +48,7 @@ public class BattleManager : MonoBehaviour
         NoteEvents.OnNotePerfectHit -= HandleNoteHitPerfect;
         NoteEvents.OnNoteMiss -= HandleNoteMiss;
         NoteEvents.OnBombHit -= HandleBombHit;
-
+        NoteEvents.OnHealingNoteHit -= HandleHealingNoteHit;
     }
 
     private void HandleNoteHit(int lane)
@@ -88,6 +89,13 @@ public class BattleManager : MonoBehaviour
         BattleEvents.TriggerPlayerHurt();
         BattleEvents.TriggerEnemyAttack();
         CheckPlayerDeath();
+    }
+
+    private void HandleHealingNoteHit(int lane, float amount)
+    {
+        if (isGameOver) return;
+
+        playerStats.Heal(amount);
     }
 
     private void CheckEnemyDeath()

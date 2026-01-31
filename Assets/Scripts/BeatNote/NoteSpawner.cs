@@ -22,12 +22,15 @@ public class NoteSpawner : MonoBehaviour
     [SerializeField] private float delayDurationBeforeNextPhase = 5f;
 
     [Header("Settings")]
+    [SerializeField] private int maxBombsPerMoment = 1;
     public float noteTravelTime = 2f;
     private float currentTravelTime;
     private int nextIndex = 0;
     private bool musicStarted = false;
     private double dspSongStartTime;
     private int[] weightTable = new int[100];
+    private float lastSpawnTime = -1f;
+    private int bombsSpawnedThisMoment = 0;
 
     void Start()
     {
@@ -56,7 +59,7 @@ public class NoteSpawner : MonoBehaviour
         //time dilation for audio sync accuracy
         dspSongStartTime = AudioSettings.dspTime + 1.0f;
         musicSource.PlayScheduled(dspSongStartTime);
-        
+
         if (Conductor.Instance != null)
         {
             Conductor.Instance.dspSongTime = (float)dspSongStartTime;
@@ -72,16 +75,16 @@ public class NoteSpawner : MonoBehaviour
     {
         musicStarted = false;
         if (musicSource != null) musicSource.Stop();
-        
+
         // clear reamining notes
         ClearAllActiveNotes();
-        
+
         Debug.Log("<color=red>[Spawner]</color> Spawner Stopped & Cleared");
     }
 
     public void RestartSpawnerWithNewData()
     {
-       //called by sequencer after changing song data
+        //called by sequencer after changing song data
         StopSpawner();
         StartSong();
     }
@@ -131,16 +134,49 @@ public class NoteSpawner : MonoBehaviour
     {
         if (info.laneIndex < 0 || info.laneIndex >= laneSpawnPoints.Length) return;
 
+        if (!Mathf.Approximately(info.timeInSeconds, lastSpawnTime))
+        {
+            lastSpawnTime = info.timeInSeconds;
+            bombsSpawnedThisMoment = 0;
+        }
+
         Transform spawnPoint = laneSpawnPoints[info.laneIndex];
         Transform hitPoint = laneHitPoints[info.laneIndex];
 
-        GameObject noteObject = notePrefab[weightTable[UnityEngine.Random.Range(0, 100)]].prefab;
+        GameObject noteObject = GetWeightedNotePrefab();
 
-        GameObject note = Instantiate(noteObject, spawnPoint.position, Quaternion.identity);
+        if (noteObject.GetComponent<NoteBomb>() != null && bombsSpawnedThisMoment >= maxBombsPerMoment)
+        {
+            noteObject = GetNonBombPrefab();
+        }
+
+        if (noteObject.GetComponent<NoteBomb>() != null)
+            bombsSpawnedThisMoment++;
+
+        GameObject note = Instantiate(noteObject, spawnPoint.position, Quaternion.Euler(0, 90, 0));
 
         Notebase noteScript = note.GetComponent<Notebase>();
         noteScript.Initialize(info.timeInSeconds, info.laneIndex, spawnPoint, hitPoint, noteTravelTime);
     }
+
+    GameObject GetWeightedNotePrefab()
+    {
+        return notePrefab[weightTable[UnityEngine.Random.Range(0, 100)]].prefab;
+    }
+
+    GameObject GetNonBombPrefab()
+    {
+        List<GameObject> safeNotes = new List<GameObject>();
+
+        foreach (var n in notePrefab)
+        {
+            if (n.prefab.GetComponent<NoteBomb>() == null)
+                safeNotes.Add(n.prefab);
+        }
+
+        return safeNotes[UnityEngine.Random.Range(0, safeNotes.Count)];
+    }
+
 
     void GenerateLookupTable()
     {

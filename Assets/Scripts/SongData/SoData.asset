@@ -18,1361 +18,2041 @@ MonoBehaviour:
   notes:
   - timeInSeconds: 2.285716
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 2.285716
     laneIndex: 1
+    duration: 0
   - timeInSeconds: 2.285716
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 2.285716
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 3.1428595
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 3.1428595
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 3.1428595
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 3.428574
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 3.7142885
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 3.7142885
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 3.7142885
     laneIndex: 1
+    duration: 0
   - timeInSeconds: 3.7142885
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 4.000003
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 4.000003
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 4.2857175
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 4.571432
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 5.000004
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 5.4285755
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 6.285719
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 6.857148
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 7.428577
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 7.7142916
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 7.7142916
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 8.285721
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 8.571435
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 8.571435
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 9.714293
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 10.000008
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 10.571437
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 11.42858
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 11.42858
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 11.42858
     laneIndex: 1
+    duration: 0
   - timeInSeconds: 11.42858
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 12.285724
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 12.285724
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 12.285724
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 12.857153
     laneIndex: 1
+    duration: 0
   - timeInSeconds: 12.857153
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 12.857153
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 13.142867
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 13.142867
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 13.428581
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 13.714296
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 14.142868
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 14.57144
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 15.428583
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 16.000011
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 16.571442
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 16.857155
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 16.857155
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 17.428585
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 17.714298
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 18.000013
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 18.857157
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 19.142872
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 19.7143
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 20.571444
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 20.571444
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 20.571444
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 21.000015
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 21.142874
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 21.428587
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 21.428587
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 21.714302
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 22.000017
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 22.000017
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 22.000017
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 22.28573
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 22.571445
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 22.571445
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 22.85716
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 22.85716
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 22.85716
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 23.285732
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 23.428589
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 23.714304
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 23.714304
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 24.000017
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 24.285732
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 24.285732
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 24.285732
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 24.571447
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 24.85716
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 25.142876
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 25.571447
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 26.00002
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 26.857162
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 27.428593
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 29.714308
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 30.285736
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 30.571451
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 31.142881
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 31.428595
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 31.71431
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 32.000023
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 32.571453
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 32.857166
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 32.857166
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 33.428596
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 33.71431
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 34.000027
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 34.85717
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 35.142883
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 35.142883
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 36.000027
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 36.28574
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 36.28574
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 36.547646
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 37.142883
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 37.4286
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 37.4286
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 38.000027
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 38.285744
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 38.285744
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 38.85717
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 38.85717
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 38.85717
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 38.85717
     laneIndex: 1
+    duration: 0
   - timeInSeconds: 39.4286
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 39.714317
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 39.714317
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 40.00003
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 40.285744
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 40.285744
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 40.57146
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 40.857174
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 41.142887
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 41.714317
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 42.00003
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 42.57146
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 43.428604
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 44.000034
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 44.285748
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 44.285748
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 45.14289
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 45.14289
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 48.000034
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 48.000034
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 48.000034
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 48.857178
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 48.857178
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 49.142895
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 49.428608
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 49.428608
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 49.428608
     laneIndex: 1
+    duration: 0
   - timeInSeconds: 49.428608
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 49.71432
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 50.28575
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 50.85718
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 51.142895
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 51.714325
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 52.57147
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 53.128613
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 53.4048
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 53.42861
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 53.97623
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 54.29528
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 54.57147
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 54.880993
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 57.1429
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 57.1429
     laneIndex: 1
+    duration: 0
   - timeInSeconds: 57.1429
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 57.1429
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 57.700043
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 57.976234
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 58.000042
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 58.009567
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 58.28576
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 58.557186
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 58.557186
     laneIndex: 1
+    duration: 0
   - timeInSeconds: 58.571472
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 58.571472
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 58.842903
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 58.857185
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 59.428616
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 61.128616
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 61.700047
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 62.571476
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 62.580997
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 63.12862
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 63.42862
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 63.714333
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 64.009575
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 64.8429
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 65.41434
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 66.28577
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 66.28577
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 66.28577
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 66.71433
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 66.85719
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 67.14291
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 67.14291
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 67.42862
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 67.71434
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 67.71434
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 67.71434
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 68.00005
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 68.28577
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 68.57148
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 68.57148
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 68.57148
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 69.00005
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 69.14291
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 69.42863
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 69.42863
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 69.71434
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 70.00005
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 70.00005
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 70.00005
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 70.28577
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 70.57148
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 70.85719
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 71.28577
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 71.71434
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 72.57148
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 73.142914
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 75.42863
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 76.00005
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 76.285774
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 76.285774
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 76.8572
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 77.142914
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 77.42863
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 77.71434
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 78.285774
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 78.57149
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 78.57149
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 79.142914
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 79.428635
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 79.71435
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 80.57149
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 80.8572
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 80.8572
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 81.71435
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 82.00006
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 82.00006
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 82.285774
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 82.85721
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 83.14292
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 83.14292
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 83.71435
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 84.00006
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 84.571495
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 84.571495
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 84.571495
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 84.571495
     laneIndex: 1
+    duration: 0
   - timeInSeconds: 85.14292
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 85.428635
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 85.428635
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 85.71435
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 86.00006
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 86.28578
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 86.571495
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 86.85721
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 87.428635
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 87.71435
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 88.28578
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 89.14292
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 89.714355
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 90.00007
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 90.00007
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 90.85721
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 91.14293
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 93.714355
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 93.714355
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 93.714355
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 94.5715
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 94.5715
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 94.857216
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 95.14293
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 95.14293
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 95.14293
     laneIndex: 1
+    duration: 0
   - timeInSeconds: 95.14293
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 95.42864
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 96.00007
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 96.5715
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 96.857216
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 97.42864
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 98.28579
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 98.84293
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 99.119125
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 99.14293
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 99.69055
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 100.0096
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 100.28579
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 100.64293
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 102.85722
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 102.85722
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 102.85722
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 103.28579
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 103.42865
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 103.71436
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 103.71436
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 104.00008
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 104.00008
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 104.28579
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 104.28579
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 104.28579
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 104.57151
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 104.85722
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 105.14294
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 105.14294
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 105.14294
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 105.42865
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 105.71436
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 105.71436
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 106.00008
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 106.00008
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 106.2858
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 106.57151
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 106.57151
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 106.57151
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 106.85722
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 107.14294
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 107.42865
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 107.85722
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 108.2858
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 108.57151
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 109.14294
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 109.71437
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 110.000084
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 112.000084
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 112.57151
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 112.85723
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 112.85723
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 113.142944
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 113.42866
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 113.71437
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 114.000084
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 114.000084
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 114.2858
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 114.57152
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 114.85723
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 115.142944
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 115.142944
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 115.71437
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 116.000084
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 116.000084
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 117.142944
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 117.42866
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 118.00009
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 119.42866
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 119.71438
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 120.285805
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 121.142944
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 121.142944
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 121.142944
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 121.57152
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 121.71438
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 122.00009
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 122.00009
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 122.285805
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 122.57152
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 122.57152
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 122.57152
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 122.85724
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 123.14295
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 123.428665
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 123.428665
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 123.428665
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 123.85724
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 124.00009
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 124.285805
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 124.285805
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 124.571526
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 124.85724
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 124.85724
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 124.85724
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 125.14295
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 125.428665
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 125.71438
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 126.14295
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 126.571526
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 127.428665
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 128.00009
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 130.28581
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 130.85724
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 131.14296
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 131.14296
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 131.71439
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 132.00009
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 132.28581
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 132.57153
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 133.14296
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 133.42867
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 133.42867
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 134.0001
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 134.28581
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 134.57153
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 134.85724
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 135.42868
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 135.71439
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 135.71439
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 136.57153
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 136.85724
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 136.85724
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 137.14296
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 137.71439
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 138.0001
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 138.0001
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 138.57153
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 138.85725
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 139.42868
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 139.42868
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 139.42868
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 139.42868
     laneIndex: 1
+    duration: 0
   - timeInSeconds: 140.0001
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 140.28581
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 140.28581
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 140.57153
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 140.85725
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 141.14296
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 141.42868
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 141.71439
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 142.28583
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 142.57153
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 143.14296
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 144.0001
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 144.57153
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 144.85725
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 144.85725
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 145.7144
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 146.0001
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 148.57153
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 148.57153
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 148.57153
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 149.42868
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 149.42868
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 149.7144
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 150.0001
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 150.0001
     laneIndex: 1
+    duration: 0
   - timeInSeconds: 150.0001
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 150.0001
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 150.28583
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 150.85725
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 151.42868
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 151.7144
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 152.28583
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 153.14297
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 153.70012
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 153.9763
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 154.00012
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 154.54773
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 154.86678
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 155.14297
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 155.50012
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 157.7144
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 157.7144
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 157.7144
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 158.14297
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 158.28583
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 158.57155
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 158.57155
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 158.85727
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 158.85727
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 159.14297
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 159.14297
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 159.14297
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 159.4287
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 159.7144
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 160.00012
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 160.00012
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 160.00012
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 160.28583
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 160.57155
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 160.57155
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 160.85727
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 160.85727
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 161.14297
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 161.4287
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 161.4287
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 161.4287
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 161.7144
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 162.00012
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 162.28584
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 162.7144
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 163.14297
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 163.4287
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 164.00012
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 164.57155
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 164.85727
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 166.85727
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 167.4287
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 167.71442
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 167.71442
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 168.28584
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 168.57155
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 168.85727
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 169.14299
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 169.71442
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 170.00012
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 170.00012
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 170.57156
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 170.85727
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 170.85727
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 172.00012
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 172.28584
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 172.85727
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 174.28584
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 174.57156
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 175.14299
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 176.00014
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 176.00014
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 176.00014
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 176.42871
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 176.57156
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 176.85727
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 176.85727
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 177.14299
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 177.14299
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 177.42871
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 177.42871
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 177.42871
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 177.71442
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 178.00014
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 178.28584
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 178.28584
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 178.28584
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 178.57156
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 178.85728
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 178.85728
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 179.14299
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 179.14299
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 179.42871
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 179.71442
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 179.71442
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 179.71442
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 180.00014
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 180.28584
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 180.57156
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 181.00014
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 181.42871
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 181.71442
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 182.28586
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 182.85728
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 183.14299
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 185.14299
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 185.71443
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 186.00014
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 186.00014
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 186.57156
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 186.85728
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 187.14299
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 187.42871
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 188.00014
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 188.28586
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 188.28586
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 188.85728
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 189.143
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 189.143
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 190.28586
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 190.57158
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 191.143
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 192.57158
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 192.85728
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 193.42871
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 194.28586
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 194.28586
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 194.28586
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 194.71443
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 194.85728
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 195.143
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 195.143
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 195.42871
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 195.42871
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 195.71443
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 195.71443
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 195.71443
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 196.00015
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 196.28586
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 196.57158
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 196.57158
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 196.57158
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 196.85728
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 197.143
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 197.143
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 197.42873
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 197.42873
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 197.71443
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 198.00015
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 198.00015
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 198.00015
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 198.28586
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 198.57158
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 198.85728
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 199.28586
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 199.71443
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 200.00015
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 200.57158
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 201.143
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 201.42873
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 203.42873
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 204.00015
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 204.28587
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 204.28587
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 204.8573
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 205.143
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 205.42873
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 205.71445
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 206.28587
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 206.57158
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 206.57158
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 207.143
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 207.42873
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 207.42873
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 208.57158
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 208.8573
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 209.42873
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 210.8573
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 211.14302
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 211.71445
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 212.5716
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 212.5716
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 212.5716
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 213.00015
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 213.14302
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 213.42873
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 213.42873
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 213.71445
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 213.71445
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 214.00017
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 214.00017
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 214.00017
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 214.28587
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 214.5716
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 214.8573
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 214.8573
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 214.8573
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 215.14302
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 215.42873
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 215.42873
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 215.71445
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 215.71445
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 216.00017
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 216.28587
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 216.28587
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 216.28587
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 216.5716
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 216.8573
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 217.14302
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 217.5716
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 218.00017
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 218.28587
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 218.8573
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 219.42874
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 219.71445
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 221.71445
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 222.28587
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 222.5716
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 222.5716
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 223.14302
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 223.42874
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 223.71445
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 224.00017
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 224.5716
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 224.85732
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 224.85732
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 225.42874
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 225.71446
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 225.71446
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 226.85732
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 227.14302
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 227.71446
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 229.14304
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 229.42874
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 230.00017
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 230.85732
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 230.85732
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 230.85732
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 231.28589
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 231.42874
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 231.71446
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 231.71446
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 232.00017
     laneIndex: 1
+    duration: 0
   - timeInSeconds: 232.28589
     laneIndex: 2
+    duration: 0
   - timeInSeconds: 232.28589
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 232.57161
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 232.85732
     laneIndex: 3
+    duration: 0
   - timeInSeconds: 233.14304
     laneIndex: 0
+    duration: 0
   - timeInSeconds: 233.14304
     laneIndex: 3
+    duration: 0
