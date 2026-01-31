@@ -89,7 +89,7 @@ public class NoteSpawner : MonoBehaviour
 
     private void ClearAllActiveNotes()
     {
-        NoteObject[] notes = Object.FindObjectsOfType<NoteObject>();
+        NoteObject[] notes = UnityEngine.Object.FindObjectsOfType<NoteObject>();
         foreach (NoteObject n in notes)
         {
             Destroy(n.gameObject);
@@ -105,7 +105,7 @@ public class NoteSpawner : MonoBehaviour
 
         if (phase == 2)
         {
-            SetNoteProbability<Notebomb>(20f);
+            SetNoteProbability<NoteBomb>(20f);
         }
         else if (phase == 3)
         {

@@ -12,16 +12,16 @@ public class CameraJuice : MonoBehaviour
 
     private void OnEnable()
     {
-        NoteObject.OnNoteHit += HandleHit;
-        NoteObject.OnNoteHitPerfect += HandlePerfect;
-        NoteObject.OnNoteMiss += HandleMiss;
+        NoteEvents.OnNoteHit += HandleHit;
+        NoteEvents.OnNotePerfectHit += HandlePerfect;
+        NoteEvents.OnNoteMiss += HandleMiss;
     }
 
     private void OnDisable()
     {
-        NoteObject.OnNoteHit -= HandleHit;
-        NoteObject.OnNoteHitPerfect -= HandlePerfect;
-        NoteObject.OnNoteMiss -= HandleMiss;
+        NoteEvents.OnNoteHit -= HandleHit;
+        NoteEvents.OnNotePerfectHit -= HandlePerfect;
+        NoteEvents.OnNoteMiss -= HandleMiss;
     }
 
     private void HandleHit(int _) => StartShake(0.2f);        // เพิ่มค่าความแรง
