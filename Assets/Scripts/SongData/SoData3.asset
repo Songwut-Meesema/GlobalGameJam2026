@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 091fec3fa40ce704585057ade945fb37, type: 3}
   m_Name: SoData3
   m_EditorClassIdentifier: 
-  musicClip: {fileID: 8300000, guid: 943b1954cf80c8d4c88db692b6d84601, type: 3}
+  musicClip: {fileID: 8300000, guid: 14a2278da9a3ed14da6c7abe7a89ca44, type: 3}
   bpm: 104.99992
   firstBeatOffset: 0
   notes:

@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: SoData
-  m_EditorClassIdentifier: Assembly-CSharp::SongData
+  m_Script: {fileID: 11500000, guid: 091fec3fa40ce704585057ade945fb37, type: 3}
+  m_Name: SoData1
+  m_EditorClassIdentifier: 
   musicClip: {fileID: 8300000, guid: b8860f48b9d31154d8e3d115cf4ada75, type: 3}
   bpm: 104.99992
   firstBeatOffset: 0

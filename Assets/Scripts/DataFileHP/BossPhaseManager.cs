@@ -1,5 +1,6 @@
 using UnityEngine;
 using System;
+using System.Collections;
 
 public class BossPhaseManager : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class BossPhaseManager : MonoBehaviour
     [SerializeField] private int maxPhases = 3;
 
     private int currentPhase = 1;
+    private bool isTransitioning = false;
 
     private void OnEnable() {
         if (bossStats != null) bossStats.OnHpChanged += CheckPhase;
@@ -22,12 +24,26 @@ public class BossPhaseManager : MonoBehaviour
     }
 
     private void CheckPhase(float currentHp, float maxHp) {
-        if (currentHp <= 0) {
-            if (currentPhase < maxPhases) {
-                currentPhase++;
-                bossStats.ResetHealth(); 
-                OnPhaseChanged?.Invoke(currentPhase);
-            } 
+        // ถ้าเลือดหมด และยังมีเฟสต่อไป และไม่ได้กำลังเปลี่ยนเฟสอยู่
+        if (currentHp <= 0 && currentPhase < maxPhases && !isTransitioning) {
+            StartCoroutine(TransitionRoutine());
         }
+    }
+
+    private IEnumerator TransitionRoutine() {
+        isTransitioning = true;
+
+        // 1. รีเซ็ตเลือดหลังบ้านให้เต็มทันที (Data Reset)
+        if (bossStats != null) bossStats.ResetHealth();
+
+        // 2. รอ 1 เฟรม เพื่อให้ Event OnHpChanged (ค่า 0) ของเฟสเก่าทำงานจบก่อน
+        yield return null;
+
+        // 3. เปลี่ยนเฟส และแจ้ง UI ให้สลับหลอด
+        currentPhase++;
+        OnPhaseChanged?.Invoke(currentPhase);
+
+        isTransitioning = false;
+        Debug.Log($"<color=cyan>[Phase]</color> Switched to Phase {currentPhase}");
     }
 }

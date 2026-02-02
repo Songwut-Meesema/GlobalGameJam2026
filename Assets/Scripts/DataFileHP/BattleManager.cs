@@ -14,15 +14,15 @@ public class BattleManager : MonoBehaviour
     [SerializeField] private CharacterStats playerStats;
     [SerializeField] private CharacterStats currentEnemyStats;
 
-    [Header("Damage Settings")] 
+    [Header("Damage Settings")]
     [SerializeField] private float damageToEnemyNormal = 10f;
     [SerializeField] private float damageToEnemyPerfect = 20f;
     [SerializeField] private float damageNoteToPlayer = 15f;
     [SerializeField] private float damageBombToPlayer = 30f;
 
     [Header("UI References")]
-    [SerializeField] private GameObject winUI;  
-    [SerializeField] private GameObject loseUI; 
+    // [SerializeField] private GameObject winUI; 
+    [SerializeField] private GameObject loseUI;
 
     public static event Action<gameState> OnGameStateChanged;
 
@@ -38,7 +38,7 @@ public class BattleManager : MonoBehaviour
     private void Start()
     {
         // ปิด UI ทั้งหมดตอนเริ่ม
-        if (winUI != null) winUI.SetActive(false);
+        // if (winUI != null) winUI.SetActive(false);
         if (loseUI != null) loseUI.SetActive(false);
     }
 
@@ -65,10 +65,10 @@ public class BattleManager : MonoBehaviour
 
     private void HandleNoteHit(int lane)
     {
-        if (isGameOver) return; 
+        if (isGameOver) return;
 
         currentEnemyStats.TakeDamage(damageToEnemyNormal);
-        BattleEvents.TriggerPlayerAttack(false); 
+        BattleEvents.TriggerPlayerAttack(false);
         BattleEvents.TriggerEnemyHurt();
         CheckEnemyDeath();
     }
@@ -78,7 +78,7 @@ public class BattleManager : MonoBehaviour
         if (isGameOver) return;
 
         currentEnemyStats.TakeDamage(damageToEnemyPerfect);
-        BattleEvents.TriggerPlayerAttack(true); 
+        BattleEvents.TriggerPlayerAttack(true);
         BattleEvents.TriggerEnemyHurt();
         CheckEnemyDeath();
     }
@@ -116,8 +116,9 @@ public class BattleManager : MonoBehaviour
         {
             isGameOver = true;
             Debug.Log("<color=green>[BATTLE] Victory!</color>");
-            if (winUI != null) winUI.SetActive(true);
+            // if (winUI != null) winUI.SetActive(true);
             OnGameStateChanged?.Invoke(gameState.WIN);
+            BattleEvents.TriggerEnemyDeath();
             // stio music when win
             StopMusic();
         }
@@ -127,14 +128,25 @@ public class BattleManager : MonoBehaviour
     {
         if (playerStats.currentHp <= 0 && !isGameOver)
         {
-            isGameOver = true;
-            // Debug.Log("<color=red>[BATTLE] Player Defeated!</color>");
-            if (loseUI != null) loseUI.SetActive(true);
+            // เช็คกรณีพิเศษ: ถ้าบอสตายพร้อมเรา (Double KO) ให้ถือว่าเราชนะ
+            if (currentEnemyStats.currentHp <= 0)
+            {
+                CheckEnemyDeath(); // โยนไปเข้าฟังก์ชันชนะแทน
+                return;
+            }
 
+            // ถ้าบอสไม่ตาย แสดงว่าเราแพ้จริง
+            isGameOver = true;
+            Debug.Log("<color=red>[BATTLE] Defeat!</color>");
+
+            // 1. แจ้ง GameState ว่าแพ้
+            OnGameStateChanged?.Invoke(gameState.LOSE);
+            
+            // 2. เปิดหน้าต่างแพ้
+            if (loseUI != null) loseUI.SetActive(true);
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
-            // stop music when lose
-            OnGameStateChanged?.Invoke(gameState.LOSE);
+
             StopMusic();
         }
     }
@@ -149,8 +161,9 @@ public class BattleManager : MonoBehaviour
 
 }
 
-public static class BattleEvents {
-    public static System.Action<bool> OnPlayerAttack; 
+public static class BattleEvents
+{
+    public static System.Action<bool> OnPlayerAttack;
     public static System.Action OnPlayerHurt;
     public static System.Action OnEnemyAttack;
     public static System.Action OnEnemyHurt;
@@ -159,4 +172,7 @@ public static class BattleEvents {
     public static void TriggerPlayerHurt() => OnPlayerHurt?.Invoke();
     public static void TriggerEnemyAttack() => OnEnemyAttack?.Invoke();
     public static void TriggerEnemyHurt() => OnEnemyHurt?.Invoke();
+
+    public static System.Action OnEnemyDeath;
+    public static void TriggerEnemyDeath() => OnEnemyDeath?.Invoke();
 }
